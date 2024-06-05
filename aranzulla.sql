@@ -14,9 +14,11 @@ CREATE TABLE utenti (
     email VARCHAR(100) NOT NULL UNIQUE
 );
 -- Dump dei dati per la tabella `articoli`
---
-
-INSERT INTO `articoli` (`id`, `titolo`, `immagine`, `contenuto`, `principale`) VALUES
+-- 
+SET FOREIGN_KEY_CHECKS = 0;
+truncate TABLE ARTICOLI;
+SET FOREIGN_KEY_CHECKS = 1;
+INSERT INTO articoli (id, titolo, immagine, contenuto, principale) VALUES
 (1, 'Articolo 1', 'art1.png', 'Contenuto del primo articolo', 0),
 (2, 'Articolo 2', 'art2.png', 'Contenuto del secondo articolo', 0),
 (3, 'Articolo 3', 'art3.png', 'Contenuto del terzo articolo', 0),
@@ -51,36 +53,6 @@ CREATE TABLE preferiti (
 
 
 --
--- Dump dei dati per la tabella `preferiti`
---
-
-
--- --------------------------------------------------------
-
---
--- Struttura della tabella `utente`
---
-
-
---
--- Dump dei dati per la tabella `utente`
---
-
-INSERT INTO utente (utente_id, username, password_hash, email) VALUES
-(1, 'cjripoeenjo', 'IOIJL', 'christiancultraro92@gmail.com'),
-(2, 'cjripoeenjoNJ', 'IOIJLJ', 'christiancultraro2@gmail.com'),
-(3, 'chri798', 'mario', 'christiancultraro98@gmail.com'),
-(4, 'alessia', 'alessia', 'alessia@alessia.com'),
-(5, 'gaia', 'guygfu', 'vghfyu@bhugyu.it'),
-(6, 'cioc', 'jckl', 'KJL@KPO.COM'),
-(7, 'paolo', 'cjoòokj', 'njcioe@kicoer.com'),
-(8, '', '', ''),
-(9, '', '', ''),
-(10, '', '', ''),
-(11, 'chrio', 'Sjioceuoi!', 'ciadf@hmail.com'),
-(12, 'chri798', 'Sjioceuoi!', 'ciadf@hmail.com'),
-(13, 'ciaone2', '$2y$10$hwv3zcCtAgD2VR.Nc1GbjOdS2ruFC1OmH7Nv2XjEqSJML9ZzdejM6', 'chapo@lok.it'),
-(14, 'ciaone', '$2y$10$XtLkIuKrC5./UnVvhFmQSuM6qkjmo03Lnd6Epp7aPvzbOdSHZ3DfG', 'jciowh@ijojls.it');
 
 --
 --
