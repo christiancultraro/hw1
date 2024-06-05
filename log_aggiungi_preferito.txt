@@ -1,0 +1,97 @@
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: 
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: 
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: 
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: 
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"2"}
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"2"}
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: 
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+)
+POST Data: {"articoloId":"2"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"2"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"4"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"5"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"9"}
+Session: Array
+(
+    [username] => chri798
+    [user_id] => 3
+)
+POST Data: {"articoloId":"2"}

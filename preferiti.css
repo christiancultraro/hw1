@@ -1,0 +1,45 @@
+
+.articolo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.articolo img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+
+.articolo-principale {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.articolo-principale img {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+
+.articolo h3 {
+    margin: 0;
+}
+
+.articolo p {
+    margin: 0;
+}
+
+
+.articolo img, .articolo-principale img {
+    object-fit: cover;
+}
+
+.marginleft2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
